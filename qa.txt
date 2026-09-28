@@ -1,0 +1,4 @@
+python legged_lab/scripts/play.py --task=hi2-walk --num_envs=10
+ python legged_lab/scripts/train.py --task=hi2-walk --headless --logger=tensorboard --num_envs=8192
+ 
+  python legged_lab/scripts/sim2sim_hi2.py --task=hi2-walk --policy Exported_policy/policy.pt --duration 100
